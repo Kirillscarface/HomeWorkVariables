@@ -4,7 +4,7 @@ public class Main {
         int apple = 1000000;
         byte orange = 125;
         short banana = 15400;
-        long plum = 3000000;
+        long plum = 3000000L;
                System.out.println("Значение переменной apple с типом int равно " + apple);
                System.out.println("Значение переменной orange с типом byte равно " + orange);
                System.out.println("Значение переменной banana с типом short равно " + banana);
@@ -12,7 +12,7 @@ public class Main {
 
         // Задание 2
         double a = 27.12;
-        long b = 987678965549l;
+        long b = 987678965549L;
         double c = 2.786;
         short d = 569;
         short e = -159;
@@ -20,13 +20,13 @@ public class Main {
         byte g = 67;
 
         //Задание 3
-        byte teacher1 = 23;
-        byte teacher2 = 27;
-        byte teacher3 = 30;
-        int totalStudents = teacher1 + teacher2 + teacher3;
-        short totalPapers = 450;
-        int papersStudent = totalPapers / totalStudents;
-              System.out.println("На каждого ученика рассчитало " + papersStudent + "листов бумаги");
+        int ludmilaStudents = 23;
+        int annaStudents = 27;
+        int ekaterinaStudents = 30;
+        int totalStudents = ludmilaStudents + annaStudents + ekaterinaStudents;
+        int totalSheets = 480;
+        double sheetsPerStudent = totalSheets / totalStudents ;
+        System.out.printf("На каждого ученика рассчитано" + sheetsPerStudent + " листов бумаги");
 
         //Задание 5
         byte totalCans = 120;
@@ -75,7 +75,8 @@ public class Main {
                System.out.println("Вес завтрака: " + totalWeightGrams + " грамм");
                System.out.println("Вес завтрака: " + totalWeightKilograms + " килограмм");
 
-               //Задача 7
+
+        //Задача 7
         short weightLoseKg = 7;
         double weightLoseGrams = weightLoseKg * 1000;
         float dailyLoss250Grams = 250;
@@ -83,11 +84,11 @@ public class Main {
         double daysLose250 = weightLoseGrams / dailyLoss250Grams;
         double daysLose500 = weightLoseGrams / dailyLoss500Grams;
         double averageDays = (daysLose250 + daysLose500) / 2;
-              System.out.println("Количество дней для похудения при потере 250 грамм в день: " + daysLose250);
-              System.out.println("Количество дней для похудения при потере 500 грамм в день: " + daysLose500);
-              System.out.println("Среднее колличество дней для похудения: " + averageDays);
+        System.out.println("Количество дней для похудения при потере 250 грамм в день: " + daysLose250);
+        System.out.println("Количество дней для похудения при потере 500 грамм в день: " + daysLose500);
+        System.out.println("Среднее колличество дней для похудения: " + averageDays);
 
-              //Задача 8
+        //Задача 8
         double mashaSalary = 67760;
         double denisSalary = 83690;
         double kristinaSalary = 76230;
@@ -107,18 +108,12 @@ public class Main {
         double kristinaMonthlyDifference = newSalaryKristina - kristinaSalary;
         double kristinaAnnualDifference = kristinaMonthlyDifference *12;
 
-              System.out.println("Маша теперь получает " + newSalaryMasha + " Рублей.Годовой доход вырос на " +
-                      mashaMonthlyDifference);
-              System.out.println("Денис теперь получает " + newSalaryDenis + " Рублей.Годовой доход вырос на " +
-                      denisMonthlyDifference);
-              System.out.println("Кристина теперь получает " + newSalaryKristina + " Рублей.Годовой доход вырос на " +
-                      kristinaMonthlyDifference);
-
-
-
-
-
-
+        System.out.println("Маша теперь получает " + newSalaryMasha + " Рублей.Годовой доход вырос на " +
+                mashaMonthlyDifference);
+        System.out.println("Денис теперь получает " + newSalaryDenis + " Рублей.Годовой доход вырос на " +
+                denisMonthlyDifference);
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " Рублей.Годовой доход вырос на " +
+                kristinaMonthlyDifference);
 
 
 
